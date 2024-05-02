@@ -5,8 +5,6 @@
 		"dockerfile": "Dockerfile"
 	},
 "remoteUser": "node",
-"forwardPorts": [1337],
-
 "customizations": {
 	"vscode": {
 		"extensions": [
@@ -14,11 +12,7 @@
 		]
 	}
 },
-
 "features": {
-	"ghcr.io/devcontainers/features/github-cli:1": {
-		"installDirectlyFromGitHubRelease": true,
-		"version": "latest"
-	}
+	"ghcr.io/devcontainers/features/github-cli:1": {}
 }
 }
